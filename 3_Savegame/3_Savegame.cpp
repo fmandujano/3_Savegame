@@ -54,7 +54,6 @@ int main()
       std::cin >> data.name;
       data.currentWeapon = EWeapon::none;
       data.enemysKilled = 0;
-
       savefile.open("data.sav", std::ios::out);
       if (savefile.is_open())
       {
